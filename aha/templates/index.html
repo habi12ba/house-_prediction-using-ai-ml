@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <h1>🏠 Unlock the Value of Your Dream Home</h1>
+            <p>Your home is your greatest investment. Let our AI-powered system predict its future worth with precision and confidence.</p>
+            <!-- Button to navigate to the next page -->
+            <a href="{{ url_for('question') }}" class="btn">
+                <span>Get Started</span>
+                <div class="wave"></div>
+            </a>
+        </header>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Why Choose Our Prediction Tool?</h2>
+            <div class="features-content">
+                <div class="feature">
+                    <h3>🔍 Accurate Predictions</h3>
+                    <p>Our AI model is trained on extensive datasets to deliver accurate house price predictions tailored to your needs.</p>
+                </div>
+                <div class="feature">
+                    <h3>⏱ Instant Results</h3>
+                    <p>Simply input a few details, and receive immediate insights into your property's estimated value.</p>
+                </div>
+                <div class="feature">
+                    <h3>💡 Data-Driven Insights</h3>
+                    <p>We analyze location, trends, and property features to provide data-backed estimates.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slogan Section -->
+        <section class="slogan">
+            <h2>"Your Future, Your Home, Your Value"</h2>
+            <p>Take the guesswork out of property valuation with our AI-powered house prediction tool.</p>
+        </section>
+    </div>
+</body>
+</html>
+
+
